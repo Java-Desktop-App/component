@@ -48,6 +48,9 @@
     <profiles>
         <profile>
             <id>mac</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
             <dependencies>
                 <dependency>
                     <groupId>org.eclipse.platform</groupId>
